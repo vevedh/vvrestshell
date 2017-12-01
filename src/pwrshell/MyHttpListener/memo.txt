@@ -1,0 +1,4 @@
+Import-Module "C:\sources\MyHttpListener\HttpListener.psd1" -Force
+Get-ExecutionPolicy -List
+-Scope CurrentUser
+PowerShell.exe -Scope CurrentUser -ExecutionPolicy UnRestricted

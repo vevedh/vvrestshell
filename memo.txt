@@ -1,0 +1,2 @@
+electron-packager . --platform=win32 --arch=x64 --icon=www/assets/icon/icon256.ico --prune=true --asar=false --out=dist --ignore=dist --ignore=src --ignore=.sourcemaps --overwrite
+asar pack app electron.asar
